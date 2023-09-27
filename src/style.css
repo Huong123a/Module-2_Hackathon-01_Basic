@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #form {
+    text-align: center;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  /* CSS cho bảng */
+
+/* CSS cho phần tiêu đề của bảng */
+.table-dictionary thead {
+    background-color: #E6E6FA;
+    color: black;
+}
+
+/* CSS cho các ô tiêu đề của cột */
+.table-dictionary th {
+    padding: 10px;
+    text-align: left;
+}
+
+/* CSS cho các ô dữ liệu */
+.table-dictionary td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* CSS cho các nút Sửa và Xóa */
+.table-dictionary .edit-button, .table-dictionary .delete-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.table-dictionary .edit-button:hover, .table-dictionary .delete-button:hover {
+    background-color: #218838;
+}
+.table-dictionary {
+    margin: 0 auto; 
+    width: 30%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
